@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="amit.schoolhub.apply">
+
+    <ScrollView
+        android:id="@+id/scrollview_apply"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/apply_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_studentdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/studentdetail"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:textColor="#F00"
+                />
+
+            <Spinner
+                android:id="@+id/sp_passedstd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+
+            <EditText
+                android:id="@+id/et_lastschool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastschoolname"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+
+            <EditText
+                android:id="@+id/et_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastyearresult"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+
+            <TextView
+                android:id="@+id/tv_selectschhol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectschool"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:textColor="#F00"
+                />
+            <Spinner
+                android:id="@+id/sp_school1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+            <Spinner
+                android:id="@+id/sp_school2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+            <Spinner
+                android:id="@+id/sp_school3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+            <Spinner
+                android:id="@+id/sp_school4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+            <Spinner
+                android:id="@+id/sp_school5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                android:ems="10"
+                />
+            <Button
+                android:id="@+id/bt_apply"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="243dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_signup"
+                android:text="@string/apply"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

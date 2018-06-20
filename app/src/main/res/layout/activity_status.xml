@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="amit.schoolhub.status">
+
+    <LinearLayout
+        android:id="@+id/lin_ver_school1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="?android:dividerHorizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_school1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/schoolname"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_school1status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Status"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_ver_school2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="?android:dividerHorizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_school2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/schoolname"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_school2status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Status"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_ver_school3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="?android:dividerHorizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_school3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/schoolname"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_school3status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Status"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_ver_school4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="?android:dividerHorizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_school4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/schoolname"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_school4status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Status"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_ver_school5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="?android:dividerHorizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_school5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/schoolname"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_school5status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Status"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

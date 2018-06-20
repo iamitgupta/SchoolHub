@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_dashboard">
+
+    <LinearLayout
+        android:id="@+id/dashboard_ver_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/dashboard_lin2"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="5dp"
+            android:orientation="vertical"
+           android:layout_marginTop="25dp"
+            >
+
+            <ImageButton
+                android:id="@+id/bt_editschool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/editschool"
+                />
+
+            <ImageButton
+                android:id="@+id/bt_viewadmission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/viewadmission" />
+            <ImageButton
+                android:id="@+id/bt_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dashboard_lin1"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bt_editstudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/editstudent" />
+
+            <ImageButton
+                android:id="@+id/bt_viewfeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/viewfeedback" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

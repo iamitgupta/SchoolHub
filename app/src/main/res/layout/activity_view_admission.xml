@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_admission">
+
+    <ScrollView
+        android:id="@+id/scrollview_apply"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/apply_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_viewprofile"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="243dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_signup"
+                android:text="Student profile"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv_studentdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/studentdetail"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:textColor="#F00"
+                />
+
+            <TextView
+                android:id="@+id/sp_passedstd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Passedstd"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/et_lastschool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastschoolname"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/et_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastyearresult"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_selectedschhol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectedschool"
+                android:textSize="35dp"
+                android:textAlignment="center"
+                android:textColor="#F00"
+                />
+
+            <Switch
+                android:id="@+id/sw_school1"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Select School"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/sw_school2"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Select School"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/sw_school3"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Select School"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/sw_school4"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Select School"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/sw_school5"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Select School"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bt_submit"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="243dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_signup"
+                android:text="@string/submit"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

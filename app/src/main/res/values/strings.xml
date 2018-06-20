@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">School Hub</string>
+    <string name="version">Ver 1.0</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="remember">Remember me</string>
+    <string name="firstname">First Name</string>
+    <string name="middlename">Middle Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="studentsname">Student\'s Name</string>
+    <string name="city">City</string>
+    <string name="emailid">Email</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="searchschool">Enter School Name</string>
+    <string name="studentdetail">Student detail</string>
+    <string name="studentsfullname">Student\'s Full name</string>
+    <string name="fathersname">Father\'s Name</string>
+    <string name="occupation">Occupation</string>
+    <string name="dateofbirth">Date Of Birth</string>
+    <string name="address">Address</string>
+    <string name="Cast">Cast</string>
+    <string name="gender">Gender</string>
+    <string name="Passedstd">Passed Std.</string>
+    <string name="lastschoolname">Last School Name</string>
+    <string name="lastyearresult">Last year\'s result in %</string>
+    <string name="selectschool">Select School</string>
+    <string name="apply">Apply</string>
+    <string name="app">SchoolHub</string>
+    <string name="changeprofile">Change Profile</string>
+    <string name="yourfeedback">Your Feedback</string>
+    <string name="sendfeedback">Send Feedback</string>
+    <string name="ratetheapp">Rate the app</string>
+    <string name="schoolname">School Name</string>
+    <string name="Status">Status</string>
+    <string name="logout">Log out?</string>
+    <string name="logoutmessage">Are you sure you want to log out?</string>
+
+
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="passworderror">Enter Some Password</string>
+    <string name="mobileerror">Enter Valid Mobile Number</string>
+    <string name="phone">Phone No.</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <string name="announcement">Announcement Message</string>
+    <string name="filtername">Filter by Name</string>
+    <string name="filterusername">Filter by username</string>
+    <string name="editandsave">Edit and Save</string>
+    <string name="delete">Delete Student</string>
+    <string name="selectedschool">Selected school</string>
+    <string name="admin">Admin</string>
+    <string name="student">Student</string>
+
+</resources>

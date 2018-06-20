@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".displayschool">
+
+
+    <ScrollView
+        android:id="@+id/scrollview_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/register_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_schoolname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:hint="@string/schoolname"
+                android:inputType="textPersonName"
+                android:drawableLeft="@drawable/man"
+                android:textSize="25sp"
+                android:focusable="false"
+                />
+            <EditText
+                android:id="@+id/et_saddress"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:hint="@string/address"
+                android:inputType="textMultiLine"
+                android:drawableLeft="@drawable/cityscape"
+                android:textSize="25sp"
+                android:focusable="false"
+                />
+
+            <EditText
+                android:id="@+id/et_smobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:drawableLeft="@drawable/smartphone"
+                android:ems="10"
+                android:hint="@string/mobile"
+                android:inputType="number"
+                android:textSize="25sp"
+                android:focusable="false"
+                />
+            <EditText
+                android:id="@+id/et_semail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:hint="@string/emailid"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/email"
+                android:textSize="25sp"
+                android:focusable="false"
+                />
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/uss"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:textSize="25sp"
+                android:focusable="false"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
